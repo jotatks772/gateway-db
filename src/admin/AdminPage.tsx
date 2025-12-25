@@ -14,7 +14,7 @@ const AdminPage: React.FC = () => {
     // Para Netlify, o frontend e backend estarão em domínios diferentes.
     // Você precisará do URL do seu backend aqui (ex: Render, Railway).
     // Se o backend ainda não está online, mantenha io() por enquanto.
-    socket.current = io("URL_DO_SEU_BACKEND_ONLINE"); // <-- IMPORTANTE PARA PRODUÇÃO!
+    socket.current = io("mongodb+srv://jotagametks_db_user:<db_password>@cluster0.jdksgly.mongodb.net/?appName=Cluster0"); // <-- IMPORTANTE PARA PRODUÇÃO!
 
     const handleAdminUpdate = (data: AdminUpdatePayload) => {
       setSessions(prevSessions => {
