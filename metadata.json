@@ -1,0 +1,5 @@
+{
+  "name": "Chimera Real-Time Data Capture",
+  "description": "A two-part application featuring a realistic e-commerce checkout page for data entry and a real-time admin dashboard to monitor the captured information keystroke by keystroke.",
+  "requestFramePermissions": []
+}

@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rynner | Official Site</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'rynner-blue': '#073590',
+              'rynner-yellow': '#F1C933',
+              'rynner-dark': '#041E42',
+              'rynner-hover': '#052A70',
+            },
+            boxShadow: {
+                'card': '0 2px 4px rgba(0,0,0,0.1)',
+            },
+            fontFamily: {
+                sans: ['Roboto', 'Arial', 'sans-serif'],
+            }
+          },
+        },
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-router-dom": "https://esm.sh/react-router-dom@^7.11.0",
+    "socket.io-client": "https://esm.sh/socket.io-client@^4.8.3",
+    "path": "https://esm.sh/path@^0.12.7",
+    "url": "https://esm.sh/url@^0.11.4",
+    "http": "https://esm.sh/http@^0.0.1-security",
+    "cors": "https://esm.sh/cors@^2.8.5",
+    "mongoose": "https://esm.sh/mongoose@^9.0.2",
+    "socket.io": "https://esm.sh/socket.io@^4.8.3",
+    "express": "https://esm.sh/express@^5.2.1"
+  }
+}
+</script>
+<style>
+    body { font-family: 'Roboto', sans-serif; background-color: #EFEFEF; }
+    /* Checkbox custom style for branding */
+    input[type="checkbox"]:checked {
+        background-color: #073590;
+        border-color: #073590;
+    }
+</style>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
